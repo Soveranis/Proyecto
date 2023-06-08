@@ -251,9 +251,7 @@ margin-top: 20px;
   grid-gap: 10px;
 }
 
-#Cont_1_contendio{
-  padding-top: 230px !important; 
-}
+
 .panel .panel-heading, .panel .panel-body, .panel .panel-footer {
   padding-left: 30px !important;
   padding-right: 30px !important;
@@ -296,6 +294,9 @@ width: 100% !important;
       position: absolute;
       bottom: -10px;
   
+    }
+    .navbar-default {
+      border-radius: 0px !important;
     }
     }
     
