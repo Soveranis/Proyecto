@@ -230,6 +230,21 @@ margin-top: 20px;
    
     grid-gap: 60px;
 }
+.inicio_header{
+ float: right; 
+ text-decoration: none;
+ padding: 30px;
+
+}
+.inicio_header span{
+  color:#777;
+}
+@media screen and (max-width: 900px) {
+
+  nav{
+    width: 700px !important;
+  }
+  }
 @media screen and (max-width: 800px) {
 .footer_remplazo{
   display: grid;
@@ -248,3 +263,33 @@ width: 100% !important;
 }
 
 }
+
+
+@media screen and (max-width: 700px) {
+  nav{
+    width: 600px !important;
+  }
+.nombre_logo{
+    width: 210px;
+  }
+  }
+  
+
+
+
+@media screen and (max-width: 600px) {
+  span{
+    display: none;
+  }
+  
+  }
+  
+
+  @media screen and (max-width: 500px) {
+    nav{
+      width: 100% !important;
+    }
+    
+    }
+    
+  
